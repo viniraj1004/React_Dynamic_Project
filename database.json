@@ -1,0 +1,214 @@
+{
+  "batches": [
+    {
+      "id": 2,
+      "course": "Python Fullstack Development",
+      "date": "12-OCT-2023",
+      "timings": "8: 00 AM - 9: 00 AM",
+      "duration": "90 days",
+      "trainer": "Mr. Sudheer"
+    },
+    {
+      "id": 3,
+      "course": "UIUX Designing",
+      "date": "9-OCT-2023",
+      "timings": "4: 00 PM - 5: 00 PM",
+      "duration": "90 days",
+      "trainer": "Mr.Shakthivel"
+    },
+    {
+      "id": 4,
+      "course": "UI Development",
+      "date": "12-OCT-2023",
+      "timings": "5: 00 PM - 6: 00 PM",
+      "duration": "70 Days",
+      "trainer": "Mr.Bharghav"
+    },
+    {
+      "id": 5,
+      "course": "Python with DJango",
+      "date": "12-OCT-2023",
+      "timings": "8: 00 AM - 9: 00 AM",
+      "duration": "45 days",
+      "trainer": "Mr. Sudheer"
+    },
+    {
+      "id": 6,
+      "course": "Web Designing",
+      "date": "12-OCT-2023",
+      "timings": "5: 00 PM - 6: 00 PM",
+      "duration": "45 days",
+      "trainer": "Mr.Bharghav"
+    },
+    {
+      "id": 7,
+      "course": "React JS",
+      "date": "11-OCT-2023",
+      "timings": "9.00 AM to 10.00 AM",
+      "duration": "25 Days",
+      "trainer": "Mr.Bharghav"
+    }
+  ],
+  "register": [
+    {
+      "id": 1,
+      "coursename": "MERN Fullstack",
+      "trainingtype": "Online class",
+      "name": "Vinitha P",
+      "email": "viniraj1004@gmail.com",
+      "subject": "React JS",
+      "phone": "9743760430",
+      "message": "Interested in this course"
+    },
+    {
+      "id": 2,
+      "coursename": "MERN Fullstack",
+      "trainingtype": "Online Training",
+      "name": "Rajasekar",
+      "email": "rrr@gmail.com",
+      "subject": "React Js",
+      "phone": "86574938746",
+      "message": "I am interested"
+    },
+    {
+      "id": 3,
+      "coursename": "MERN Fullstack",
+      "trainingtype": "Online Training",
+      "name": "Vinitha",
+      "email": "rrr@gmail.com",
+      "subject": "React Js",
+      "phone": "86574938746",
+      "message": "Iam interested to online course"
+    }
+  ],
+  "enquires": [
+    {
+      "id": 1,
+      "username": "Vinitha",
+      "email": "viniraj1004@gmail.com",
+      "subject": "React JS",
+      "phone": "8745639865",
+      "msg": "Iam interested this course"
+    },
+    {
+      "id": 2,
+      "username": "Rajasekar",
+      "email": "rrr@gmail.com",
+      "subject": "UI Development",
+      "phone": "8657493874",
+      "msg": "Iam interested this course"
+    }
+  ],
+  "courses": [
+    {
+      "id": 3,
+      "name": "UI Development",
+      "skills": "HTML,CSS,JS,jQuery,Bootstrap,Mongo DB,Express JS,React JS and Node JS",
+      "path": "https://hyderabadittrainings.com/images/course/ui.webp",
+      "description": "UI Development (User Interface Development) is the development of websites, web applications. User Interface plays a key role in the software development life cycle. Our UI Developer Course in Hyderabad is designed for beginners, working professionals. UI Developer Course makes you learn the complete concepts of UI technologies right from basics to advanced level. In this UI Development course we cover HTML, CSS, Bootstrap, Javascript, JQuery, ReactJS, Redux with live projects."
+    },
+    {
+      "id": 4,
+      "name": "React JS",
+      "skills": "HTML,CSS,JS,jQuery,Bootstrap,Python and Django",
+      "path": "https://hyderabadittrainings.com/images/course/react%20js%20training%20banner.webp",
+      "description": "React JS is a front-end library developed by facebook for handling the view layer for web and mobile apps. It allows creating reusable UI components. It is currently the most popular JavaScript library and there is a huge community out there. Hyderabad IT Trainings offers advanced React JS course in Hyderabad. In this React JS course we cover JSX, Components, Unidirectional Data Flow and Flux and License with live projects."
+    },
+    {
+      "id": 5,
+      "name": "UI/UX Designing",
+      "skills": "HTML,CSS,Bootstrap,Javascript,jQuery",
+      "path": "https://hyderabadittrainings.com/images/course/python%20(2)-min.jpg",
+      "description": "Hyderabad IT Trainings offers UI/UX Training in Hyderabad, Our UI/UX course help students develop skills and expertise, enabling them to become leaders of tomorrow by future-proofing their career in UI/UX Design, Design Thinking and creative problem-solving. In this UI/UX designer course, we cover research techniques, prototyping, wireframes, designing tools, UI technologies with live projects."
+    },
+    {
+      "id": 6,
+      "name": "Node JS",
+      "skills": "Node Package Manager, Express Framework, Buffers and Streams, Callback, Events, database connections with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/nodejs.webp",
+      "description": "Hyderabad IT Trainings Node JS Course in Hyderabad is appropriate for all learners like students, working professionals, whether they are new to Node js. Hyderabad IT Trainings helps you in comprehending the practical application of concepts. Begin your Node JS training with us by enrolling in our Hyderabad IT Trainings Node JS Classroom and Online Training Course. In this Node JS course, we cover installation, Node Package Manager, Express Framework, Buffers and Streams, Callback, Events, database connections with live projects."
+    },
+    {
+      "id": 7,
+      "name": "Web Designing",
+      "skills": "HTML, CSS, Bootstrap, Javascript, JQuery with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/web%20design-min.jpg",
+      "description": "Hyderabad IT Trainings Offers job oriented Web designing course in Hyderabad. The trainers at Hyderabad IT Trainings are corporate professionals providing in-depth Website designing. The Web designing course at Hyderabad IT Trainings will aim to provide our students the realtime knowledge and practical skills lined with industry standards. In this Web designing course, we cover HTML, CSS, Bootstrap, Javascript, JQuery with live projects."
+    },
+    {
+      "id": 8,
+      "name": "PHP with MySQL",
+      "skills": "HTML, CSS, Bootstrap, Javascript, JQuery, Core & Adv PHP, MySQL server with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/phpmysql-min.jpg",
+      "description": "Hyderabad IT Trainings's PHP course content is designed to help you in this extremely popular web development with ease. PHP is open source, anybody can learn this course. Hyderabad IT Trainings offering Realtime PHP Training with projects. We Provide Detailed PHP with MySQL course material along with Internship. In this PHP course we cover HTML, CSS, Bootstrap, Javascript, JQuery, Core & Adv PHP, MySQL server with live projects."
+    },
+    {
+      "id": 9,
+      "name": "Digital Marketing",
+      "skills": "SEO, Google Ads, SEM, SMO, SMM, email marketing, Youtube Marketing, Content marketing, Blogging, ORM and other concepts with certification.",
+      "path": "https://hyderabadittrainings.com/images/course/shutterstock_292018628-e1502132254355.webp",
+      "description": "Hyderabad IT Trainings Digital Marketing course is appropriate for all learners like students, working professionals, whether they are new to Digital Marketing. The course will be delivered by highly experienced trainers in the industry. Begin your Digital Marketing course training with us by enrolling in our Hyderabad IT Trainings Digital Marketing Classroom and Digital Marketing Online Training Course. In this Digital Marketing course, we cover SEO, Google Ads, SEM, SMO, SMM, email marketing, Youtube Marketing, Content marketing, Blogging, ORM and other concepts with certification."
+    },
+    {
+      "id": 10,
+      "name": "Python",
+      "skills": "Core python and Advanced Python concepts with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/python.webp",
+      "description": "Hyderabad IT Trainings offers Python course in Hyderabad, It is designed for beginners who haven’t written their first line of programming as well as programmers who are looking to improve their programming skills to land a high paying job. In this Python course, we cover Core python and Advanced Python concepts with live projects. Register for free demo Today!"
+    },
+    {
+      "id": 11,
+      "name": "UI Designing",
+      "skills": "HTML, CSS, Bootstrap, Javascript, JQuery with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/ui-design.webp",
+      "description": "Hyderabad IT Trainings Offers job oriented Web designing course in Hyderabad. The trainers at Hyderabad IT Trainings are corporate professionals providing in-depth Website designing. The Web designing course at Hyderabad IT Trainings will aim to provide our students the realtime knowledge and practical skills lined with industry standards. In this Web designing course, we cover HTML, CSS, Bootstrap, Javascript, JQuery with live projects."
+    },
+    {
+      "id": 12,
+      "name": "DJango",
+      "skills": "DJango course we cover Views, templates, static files, Models, Model forms, User authentication, CRUD operations, DJango session management, ORM, Middleware with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/django%20course.webp",
+      "description": "Hyderabad IT Trainings's DJango course content is designed to help you in this extremely popular framework with ease. DJango Course is a Web framework written in Python. It is Model View Template (MVT) based architecture. DJango is very demanding because of its fast development feature. In this DJango course we cover Views, templates, static files, Models, Model forms, User authentication, CRUD operations, DJango session management, ORM, Middleware with live projects."
+    },
+    {
+      "id": 13,
+      "name": "Graphic Designing",
+      "skills": " photoshop, flash, Illustrator tools with projects",
+      "path": "https://hyderabadittrainings.com/images/course/graphics-design.webp",
+      "description": "Hyderabad IT Trainings Graphic design courses are appropriate for all learners like students, working professionals, whether they are new to Graphic designing. The course will be delivered by highly experienced trainers in the industry. Begin your Graphic design training with us by enrolling in our Hyderabad IT Trainings Graphic design Classroom and Graphic design Online Training. In this Graphic design course, we cover photoshop, flash, Illustrator tools with projects."
+    },
+    {
+      "id": 14,
+      "name": "SEO",
+      "skills": " SEO onpage optimization, offpage optimization, Wordpress, tools etc with projects.",
+      "path": "https://hyderabadittrainings.com/images/course/seo.webp",
+      "description": "Hyderabad IT Trainings SEO course is appropriate for all learners like students, working professionals, whether they are new to digital marketing. The course will be delivered by highly experienced trainers in the industry. Begin your SEO training with us by enrolling in our Hyderabad IT Trainings SEO Classroom and SEO Online Training. In this SEO course, we cover Introduction SEO onpage optimization, offpage optimization, Wordpress, tools etc with projects."
+    },
+    {
+      "id": 15,
+      "name": "Google Adwords",
+      "skills": "Text ads, Image Ads, Video ads, Mobile app ads, Shopping ads with certifications.",
+      "path": "https://hyderabadittrainings.com/images/course/adwords.webp",
+      "description": "Hyderabad IT Trainings Adwords course is appropriate for all learners like students, working professionals, whether they are new to paid marketing in google (Google Ads). The course will be delivered by highly experienced trainers in the industry. Begin your Google Adwords training with us by enrolling in our Hyderabad IT Trainings Google Adwords Classroom and Google Adwords Online Training. In this Adwords course, we cover Text ads, Image Ads, Video ads, Mobile app ads, Shopping ads with certifications."
+    },
+    {
+      "id": 16,
+      "name": "Java Full stack",
+      "skills": "Core Java, Adv Java (J2EE, JDBC, SERVLET, JSP), Frameworks (Hibernate, Springs, Spring boot), Web Services, MySQL, HTML, CSS, Bootstrap, Javascript, JQuery with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/jfc.jpg",
+      "description": "Hyderabad IT Trainings Offers job oriented Java full stack training in Hyderabad. The trainers at Hyderabad IT Trainings are corporate professionals providing in-depth MERN stack Development. The Java full stack developer Course at Hyderabad IT Trainings will aim to provide our students the realtime knowledge and practical skills lined with industry standards. In this Java full stack course, we cover Core Java, Adv Java (J2EE, JDBC, SERVLET, JSP), Frameworks (Hibernate, Springs, Spring boot), Web Services, MySQL, HTML, CSS, Bootstrap, Javascript, JQuery with live projects."
+    },
+    {
+      "id": 17,
+      "name": "Python Fullstack",
+      "skills": " Python, DJango framework, MySQL, React JS, HTML, CSS, Bootstrap, Javascript, JQuery, Github, Jupyter Notebook with live projects.",
+      "path": "https://hyderabadittrainings.com/images/course/python%20(1).jpg",
+      "description": "Hyderabad IT Trainings Offers job oriented Python Full stack Developer Course training in Hyderabad. The trainers at Hyderabad IT Trainings are corporate professionals providing in-depth Python Full Stack Development. The Python Full Stack Course at Hyderabad IT Trainings will aim to provide our students with realtime knowledge and practical skills lined with industry standards. In this Python full stack development course, we cover Python, DJango framework, MySQL, React JS, HTML, CSS, Bootstrap, Javascript, JQuery, Github, Jupyter Notebook with live projects."
+    }
+  ],
+  "trainingmodes": [
+    {
+      "id": ""
+    }
+  ]
+}
