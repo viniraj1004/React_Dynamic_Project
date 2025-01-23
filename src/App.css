@@ -3,6 +3,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 div {
   text-align: justify;
 }
@@ -647,6 +654,7 @@ td {
 }
 
 /* Welcomehit component */
+
 .line-height p {
   line-height: 32px;
 }
@@ -680,6 +688,10 @@ input {
   height: 55px;
 }
 
+.form-control {
+  display: inline !important;
+}
+
 #nameNote,
 #emailNote,
 #phoneNote,
@@ -695,6 +707,9 @@ input {
 }
 
 
+.active-link {
+  color: red;
+}
 
 
 
