@@ -133,31 +133,31 @@ const Courses = () => {
 
                 <form onSubmit={viewCourses} id="viewCourses">
                   <div className='mb-2 formMargin'>
-                    <label for="exampleInputId" className="form-label">Course Id</label>
+                    <label for="exampleInputId" className="form-label"> Course Id :  </label>
                     <input type="text" className="form-control w-75" id="exampleInputId" aria-describedby="idHelp" value={id} onChange={(e) => {
                       setId(e.target.value);
                     }} disabled />
                   </div>
                   <div className='mb-2 formMargin'>
-                    <label for="exampleInputName" className="form-label">Course Name</label>
+                    <label for="exampleInputName" className="form-label"> Course Name : </label>
                     <input type="text" className="form-control w-75" id="exampleInputName" aria-describedby="nameHelp" value={name} onChange={(e) => {
                       setName(e.target.value);
                     }} />
                   </div>
                   <div className='mb-2 formMargin'>
-                    <label for="exampleInputSkills" className="form-label">Skills</label>
+                    <label for="exampleInputSkills" className="form-label"> Skills : </label>
                     <input type="text" className="form-control w-75" id="exampleInputSkills" aria-describedby="skillsHelp" value={skills} onChange={(e) => {
                       setSkills(e.target.value);
                     }} />
                   </div>
                   <div className='mb-2 formMargin'>
-                    <label for="exampleInputPath" className="form-label">Path</label>
+                    <label for="exampleInputPath" className="form-label"> Path : </label>
                     <input type="text" className="form-control w-75" id="exampleInputPath" aria-describedby="pathHelp" value={path} onChange={(e) => {
                       setPath(e.target.value);
                     }} />
                   </div>
                   <div className='mb-2 formMargin'>
-                    <label for="exampleInputDescription" className="form-label">Description</label>
+                    <label for="exampleInputDescription" className="form-label"> Description : </label>
                     <input type="text" className="form-control w-75" id="exampleInputDescription" aria-describedby="descriptionHelp" value={description} onChange={(e) => {
                       setDescription(e.target.value);
                     }} />

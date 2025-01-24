@@ -31,7 +31,7 @@ const CourseDetails = () => {
 
           </div>
           <div className='col-12 col-md-5 col-lg-5 pt-3'>
-            <img src={details.path} className='w-100 ps-5' />
+            <img src={details.path} className='w-100 ps-5' alt="" />
           </div>
         </div>
       </div>

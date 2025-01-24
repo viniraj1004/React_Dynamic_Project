@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+
 const AddBatches = () => {
   const [id, setId] = useState("");
   const [course, setCourse] = useState("");

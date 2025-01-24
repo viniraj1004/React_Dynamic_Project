@@ -3,6 +3,7 @@ import axios from 'axios'
 
 const Contact = () => {
 
+  const [id, setId] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -11,7 +12,7 @@ const Contact = () => {
 
   const postEnquiry = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4001/enquires", { username, email, subject, phone, msg })
+    axios.post("http://localhost:4001/enquires", { id, username, email, subject, phone, msg })
 
       .then(() => {
         alert("Enquiry posted ! You'll get a call from admin team :)");

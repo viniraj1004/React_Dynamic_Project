@@ -3,10 +3,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+.customLogPage {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -464,17 +465,22 @@ p {
 
 }
 
+.custBorder {
+  border-bottom: none !important;
+}
+
 #sidenav button:hover {
   background-color: #fff;
   color: #000;
 }
 
 #sidenav {
-  border-right: 1px solid grey;
+  border: 1px solid grey;
   /* padding-right: 20px; */
   /* padding-left: 20px; */
   background-color: green;
-  height: 50vh !important;
+  /* height: 38vh !important; */
+  height: 50% !important;
 }
 
 .row>* {
@@ -497,6 +503,7 @@ p {
 #addBatches {
   text-align: center;
 }
+
 
 .modal-sm {
   --bs-modal-width: 50% !important;
@@ -619,6 +626,10 @@ td {
 
 .desWidth {
   width: 83%;
+}
+
+label {
+  display: inline !important;
 }
 
 .form-label {

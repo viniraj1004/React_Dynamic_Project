@@ -5,14 +5,11 @@ import ViewBatches from './ViewBatches'
 import AddCourses from './AddCourses'
 import ViewCourses from './ViewCourses'
 import ViewEnquires from './ViewEnquires'
+import { NavLink } from 'react-router-dom'
 
 const HRDashboard = () => {
   const [view, setView] = useState("");
-  const [viewBatchFlag, setViewBatchFlag] = useState(true);
-  const [addBatchesFlag, setAddBatchesFlag] = useState(false);
-  const [addCoursesFlag, setAddCoursesFlag] = useState(false);
-  const [viewCoursesFlag, setViewCoursesFlag] = useState(false);
-  const [viewEnquiresFlag, setViewEnquiresFlag] = useState(false);
+
   const DashboardView = () => {
     let msg = "";
     if (view === "") {
@@ -43,27 +40,16 @@ const HRDashboard = () => {
     }
     return msg;
   }
-  const flag = (viewChange) => {
-    console.log("enter flag function")
-    console.log(viewChange);
-    if (viewChange === "addBatches") {
-      setAddBatchesFlag(true);
-      setAddCoursesFlag(false);
-      setViewBatchFlag(false);
-      setViewCoursesFlag(false);
-      setViewEnquiresFlag(false);
 
-    }
-  }
   return (
-    <div className='container p-4'>
+    <div className='container p-5'>
       <div className='row'>
-        <div className='col-sm-12 col-lg-2 pt-4 pe-0' id="sidenav">
-          <button onClick={() => { setView("addBatches"); flag(view) }} className={addBatchesFlag === true ? "activeColor" : ""}>Add Batches</button>
-          <button onClick={() => { setView("viewBatches"); flag(view) }} className={viewBatchFlag === true ? "activeColor" : ""}>View Batches</button>
-          <button onClick={() => { setView("addCourses"); flag(view) }} className={addCoursesFlag === true ? "activeColor" : ""}>Add Courses</button>
-          <button onClick={() => { setView("viewCourses"); flag(view) }} className={viewCoursesFlag === true ? "activeColor" : ""}>View Courses</button>
-          <button onClick={() => { setView("viewEnquires"); flag(view) }} className={viewEnquiresFlag === true ? "activeColor" : ""}>View Enquires</button>
+        <div className='col-sm-12 col-lg-2 pe-0' id="sidenav">
+          <button onClick={() => { setView("addBatches") }} >Add Batches</button>
+          <button onClick={() => { setView("viewBatches") }} activeClassName="active-link">View Batches</button>
+          <button onClick={() => { setView("addCourses") }} activeClassName="active-link">Add Courses</button>
+          <button onClick={() => { setView("viewCourses") }} activeClassName="active-link">View Courses</button>
+          <button onClick={() => { setView("viewEnquires") }} activeClassName="active-link" className='custBorder'>View Enquires</button>
         </div>
 
         <div className='col-sm-12 col-lg-10 ps-4'>
